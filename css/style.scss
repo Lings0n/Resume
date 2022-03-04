@@ -176,6 +176,7 @@ body{
             & .placeforico{
                 height: 100%;
                 min-width: 29.7px;
+                max-width: 29.7px;
                 overflow:hidden;
                 padding: 2px;
                 background-color: #CDCDCF;
@@ -595,7 +596,8 @@ body{
         }
         & .footer__up {
             & .place-for-up {
-                width: 28px;
+                min-width: 28px;
+                max-width: 28px;
                 height: 45%;  
                 & .up{
                     height: 27px;
