@@ -75,6 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
   color: #000000;
   font-size: 20px;
+  min-width: 250px;
   background-color: #161618;
 }
 
@@ -308,7 +309,7 @@ body {
 
 .contacts-place-list .contacts-list li .placeforico {
   height: 100%;
-  width: 29.7px;
+  min-width: 29.7px;
   overflow: hidden;
   padding: 2px;
   background-color: #CDCDCF;

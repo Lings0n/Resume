@@ -4,6 +4,7 @@
 body{
     color: #000000;
     font-size: 20px;
+    min-width: 250px;
     background-color: #161618;
     
 }
@@ -173,7 +174,7 @@ body{
             }
             & .placeforico{
                 height: 100%;
-                width: 29.7px;
+                min-width: 29.7px;
                 overflow:hidden;
                 padding: 2px;
                 background-color: #CDCDCF;
