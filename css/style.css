@@ -75,12 +75,11 @@ h1, h2, h3, h4, h5, h6 {
 body {
   color: #000000;
   font-size: 20px;
-  background-color: #ffffff;
-  min-width: 300px;
+  background-color: #161618;
 }
 
 .main {
-  background-color: #e9dcdc;
+  background-color: #d6cfcf;
   width: 100%;
   height: 100%;
 }
@@ -92,7 +91,7 @@ body {
   overflow: auto;
   -webkit-box-shadow: 0px 0px 15px #b8e738;
           box-shadow: 0px 0px 15px #b8e738;
-  background-color: #e2c0c0;
+  background-color: #161618;
 }
 
 .place-for-resume {
@@ -204,6 +203,9 @@ body {
 }
 
 .place-for-image {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
   margin-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -221,6 +223,11 @@ body {
   max-height: 250px;
   overflow: hidden;
   border-radius: 50%;
+}
+
+.image-block img {
+  height: 100%;
+  width: 100%;
 }
 
 .logo {
@@ -301,6 +308,7 @@ body {
 
 .contacts-place-list .contacts-list li .placeforico {
   height: 100%;
+  width: 29.7px;
   overflow: hidden;
   padding: 2px;
   background-color: #CDCDCF;
@@ -478,6 +486,7 @@ body {
 
 .footer .footer__logo {
   font-size: 40px;
+  margin-right: 10px;
 }
 
 .footer .footer__up {
@@ -487,6 +496,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 50px;
   height: 100%;
 }
 
@@ -554,6 +564,10 @@ body {
     margin-left: 5px;
     font-size: 15px;
   }
+  .place-for-image {
+    width: 170px;
+    height: 170px;
+  }
   .image-block {
     max-width: 170px;
     max-height: 170px;
@@ -576,8 +590,8 @@ body {
     font-size: 18px;
   }
   .footer {
-    padding-left: 25px;
-    padding-right: 34px;
+    padding-left: 35px;
+    padding-right: 35px;
   }
   .footer .footer__logo {
     font-size: 30px;
@@ -645,6 +659,10 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .place-for-image {
+    width: 230px;
+    height: 230px;
+  }
   .image-block {
     max-width: 230px;
     max-height: 230px;
@@ -679,13 +697,12 @@ body {
   }
   .footer {
     height: 60px;
-    padding-left: 25px;
-    padding-right: 20px;
   }
   .footer .footer__logo {
     font-size: 25px;
   }
   .footer .footer__up {
+    width: 30px;
     height: 100%;
   }
   .footer .footer__up .place-for-up {
@@ -733,10 +750,15 @@ body {
   .education div {
     font-size: 16px;
   }
+  .footer {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
   .footer .footer__logo {
     font-size: 22px;
   }
   .footer .footer__up .place-for-up {
+    width: 28px;
     height: 45%;
   }
   .footer .footer__up .place-for-up .up {

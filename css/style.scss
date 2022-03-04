@@ -4,12 +4,12 @@
 body{
     color: #000000;
     font-size: 20px;
-    background-color: #ffffff;
-    min-width: 300px;
+    background-color: #161618;
+    
 }
 
 .main {
-    background-color: #e9dcdc;
+    background-color: #d6cfcf;
     width: 100%;
     height: 100%;
 }
@@ -19,7 +19,7 @@ body{
     margin: 0 auto;
     overflow: auto;
     box-shadow: 0px 0px 15px #b8e738;
-    background-color: #e2c0c0;
+    background-color: #161618;
 }
 .place-for-resume {
     display: grid;
@@ -90,6 +90,9 @@ body{
     
 }
 .place-for-image {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
@@ -101,6 +104,10 @@ body{
     max-height: 250px;
     overflow: hidden;
     border-radius: 50%;
+    & img{
+        height: 100%;
+        width: 100%;
+    }
 }
 .logo {
     object-fit: cover;
@@ -166,7 +173,8 @@ body{
             }
             & .placeforico{
                 height: 100%;
-                overflow: hidden;
+                width: 29.7px;
+                overflow:hidden;
                 padding: 2px;
                 background-color: #CDCDCF;
                 border-radius: 120px;
@@ -316,10 +324,12 @@ body{
     padding-right: 40px;
     & .footer__logo{
         font-size: 40px;
+        margin-right: 10px;
     }
     & .footer__up {
         display: flex;
         align-items: center;
+        width: 50px;
         height: 100%;
         & .place-for-up {
             overflow: hidden;
@@ -384,6 +394,10 @@ body{
         margin-left: 5px;
         font-size: 15px;
     }
+    .place-for-image{
+        width: 170px;
+        height: 170px;
+    }
     .image-block {
         max-width: 170px;
         max-height: 170px;
@@ -410,8 +424,8 @@ body{
         }
     }
     .footer{
-        padding-left: 25px;
-        padding-right: 34px;
+        padding-left: 35px;
+        padding-right: 35px;
         & .footer__logo{
             font-size: 30px;
         }
@@ -470,6 +484,10 @@ body{
         display: flex;
         flex-direction: column; 
     }
+    .place-for-image{
+        width: 230px;
+        height: 230px;
+    }
     .image-block {
         max-width: 230px;
         max-height: 230px;
@@ -503,12 +521,11 @@ body{
     }
     .footer{
         height: 60px;
-        padding-left: 25px;
-        padding-right: 20px;
         & .footer__logo{
             font-size: 25px;
         }
         & .footer__up {
+            width: 30px;
             height: 100%;
             & .place-for-up {
                 height: 50%;  
@@ -538,9 +555,6 @@ body{
     .contacts{
         .contacts-title{
             font-size: 18px;
-        }
-        .contacts-list{
-            
         }
     }
     .mobile-pip__pip{
@@ -572,11 +586,14 @@ body{
         }
     }
     .footer{
+        padding-left: 30px;
+        padding-right: 30px;
         & .footer__logo{
             font-size: 22px;
         }
         & .footer__up {
             & .place-for-up {
+                width: 28px;
                 height: 45%;  
                 & .up{
                     height: 27px;
@@ -586,3 +603,4 @@ body{
     }
 }
  
+
