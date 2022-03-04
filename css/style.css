@@ -538,8 +538,8 @@ body {
     font-size: 16px;
   }
   .place-for-resume {
-    -ms-grid-columns: minmax(215px, 0.37fr) 1fr;
-        grid-template-columns: minmax(215px, 0.37fr) 1fr;
+    -ms-grid-columns: minmax(235px, 0.4fr) 1fr;
+        grid-template-columns: minmax(235px, 0.4fr) 1fr;
   }
   .mail {
     margin-left: -2px;
