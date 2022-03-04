@@ -630,7 +630,7 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
     color: #161618;
-    height: 50px;
+    height: 58px;
     width: 250px;
     background-color: #F9E314;
     margin-bottom: 20px;
@@ -731,6 +731,10 @@ body {
   }
   .contacts .contacts-title {
     font-size: 18px;
+  }
+  .mobile-pip {
+    height: 54px;
+    width: 230px;
   }
   .mobile-pip__pip {
     font-size: 20px;
