@@ -99,8 +99,8 @@ body {
   display: -ms-grid;
   display: grid;
   height: 100%;
-  -ms-grid-columns: 0.35fr 1fr;
-      grid-template-columns: 0.35fr 1fr;
+  -ms-grid-columns: 0.37fr 1fr;
+      grid-template-columns: 0.37fr 1fr;
   -ms-grid-rows: 1fr 80px;
       grid-template-rows: 1fr 80px;
 }
@@ -336,7 +336,7 @@ body {
 }
 
 .mail {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .skl {
@@ -538,8 +538,8 @@ body {
     font-size: 16px;
   }
   .place-for-resume {
-    -ms-grid-columns: 245px 1fr;
-        grid-template-columns: 245px 1fr;
+    -ms-grid-columns: minmax(215px, 0.37fr) 1fr;
+        grid-template-columns: minmax(215px, 0.37fr) 1fr;
   }
   .mail {
     margin-left: -2px;
