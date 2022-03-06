@@ -739,3 +739,9 @@ body {
     height: 27px;
   }
 }
+
+@media (max-width: 320px) {
+  .contacts-place-list .contacts-list {
+    display: block;
+  }
+}
