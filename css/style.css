@@ -235,6 +235,10 @@ body {
   display: block;
 }
 
+.contacts-place-list .contacts-list .tel-number {
+  font-size: 16px;
+}
+
 .contacts-place-list .contacts-list li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -253,7 +257,7 @@ body {
 }
 
 .contacts-place-list .contacts-list li .placeforico {
-  height: 100%;
+  height: 30px;
   min-width: 29.7px;
   max-width: 29.7px;
   overflow: hidden;
@@ -398,14 +402,37 @@ body {
 .about-me .about-me__text .about-me__text_sub-title {
   font-style: italic;
   text-decoration: underline;
-  font-size: 1.3em;
+  font-size: 1.4em;
   margin-bottom: 7px;
 }
 
 .about-me .about-me__text p {
-  font-size: 1.2em;
+  font-size: 1.3em;
   line-height: 22px;
-  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.about-me .about-me__text p span {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.about-me .about-me__text p span a {
+  color: #36329f;
+  text-decoration: underline;
+}
+
+.about-me .about-me__text p span a:hover {
+  color: #161618;
+}
+
+.about-me .about-me__text p span a:active {
+  color: #4c4c51;
+}
+
+.about-me .about-me__text p .about-me__text_first_link {
+  margin-top: 15px;
 }
 
 .footer {
@@ -486,7 +513,7 @@ body {
   }
   .mail {
     margin-left: -2px;
-    font-size: 13px;
+    font-size: 14px;
   }
   .pip {
     font-size: 40px;
@@ -653,15 +680,16 @@ body {
     height: 30px;
   }
   .right-side {
-    padding-top: 20px;
+    padding-top: 0px;
   }
 }
 
 @media (max-width: 600px) {
   .about-me {
     padding-left: 20px;
+    padding-top: 20px;
     padding-right: 0px;
-    font-size: 13px;
+    font-size: 14px;
   }
   .about-me .about-me__text p {
     line-height: 16px;
