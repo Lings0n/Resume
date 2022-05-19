@@ -1,11 +1,15 @@
-//файл обнуляющий стилі
-@import "nullstyle.scss";
+//fonts
 @import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+//
+//file nullstyle
+@import "nullstyle.scss";
+//
+
 body{
     font-family: 'Hubballi', cursive;
     color: #000000;
     font-size: 20px;
-    min-width: 250px;
+    min-width: 260px;
     background-color: #161618;
 }
 
@@ -96,9 +100,9 @@ body{
     text-align-last: left;
     padding-left: 40px;
     padding-right: 40px;
-    margin-bottom: 60px;
-
+    margin-bottom: 50px;
 }
+
 
 .contacts-title {
     font-size: 30px;
@@ -169,7 +173,9 @@ body{
         }
     }
 }
-
+.cnt1{
+    margin-bottom: 43px;
+}
 .mail{
     font-size:15px;
 }
@@ -219,6 +225,7 @@ body{
     padding-top: 60px; 
     padding-bottom: 40px; 
 }
+
 .place-for-pip{
     display: flex;
     align-items: center;
@@ -260,6 +267,24 @@ body{
         margin-bottom: 20px;
     }
     & .about-me__text{
+        & .name_college{
+            line-height: 24px;
+            font-size: 1.5em;
+            color: #000000;
+            & a{
+                color: #000000;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+        
+        & .line-lower{
+            background-color: #0c0c0c;
+            height: 1px;
+            margin-top: 25px;
+            width: 520px;
+        }
         & .about-me__text_sub-title {
             font-style: italic;
             text-decoration: underline;
@@ -268,9 +293,9 @@ body{
         }
         & p{
             font-size: 1.3em;
-            line-height: 22px;
+            line-height: 24px;
             margin-right: 10px;
-            margin-bottom: 5px;
+            margin-bottom: 15px;
             & span{
                 display: inline-block;
                 margin-bottom: 5px;
@@ -292,7 +317,9 @@ body{
     }
 }
 
-
+.secondedu{
+    display: none;
+}
 
 
 
@@ -397,12 +424,13 @@ body{
         }
     }
     .contacts {
-        padding-left: 10px;
+        padding-left: 18px;
         padding-right: 0px;
     }
     .contacts-title {
         font-size: 22px;
         letter-spacing: 2px;
+        margin-right: 8px;
     }
     .skills-place {
         max-width: 95%;
@@ -474,11 +502,19 @@ body{
         max-width: 230px;
         max-height: 230px;
     }
+    .contacts-title {
+        margin-right: 0px;
+    }
     .contacts {
         padding-left: 10px;
         padding-right: 10px;
         margin-bottom: 45px;
-
+    }
+    .cnt1{
+        margin-bottom: 30px;
+    }
+    .cnt2{
+        margin-bottom: 30px; 
     }
     .contacts-place-list{
         & .contacts-list{
@@ -487,6 +523,7 @@ body{
             flex-wrap: wrap;
             & li{
                 display: flex;
+                align-self: flex-end;
                 margin-right: 20px;
             }
         }
@@ -560,7 +597,13 @@ body{
     .contacts {
         padding-left: 10px;
         padding-right: 10px;
-        margin-bottom: 45px;
+        margin-bottom: 40px;
+    }
+    .cnt1{
+        margin-bottom: 30px;
+    }
+    .cnt2{
+        margin-bottom: 20px;
     }
     .contacts-place-list{
         & .contacts-list{

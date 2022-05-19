@@ -1,6 +1,6 @@
 @charset "UTF-8";
-/*nullfile*/
 @import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+/*nullfile*/
 * {
   padding: 0;
   margin: 0;
@@ -78,7 +78,7 @@ body {
   font-family: 'Hubballi', cursive;
   color: #000000;
   font-size: 20px;
-  min-width: 250px;
+  min-width: 260px;
   background-color: #161618;
 }
 
@@ -201,7 +201,7 @@ body {
   text-align-last: left;
   padding-left: 40px;
   padding-right: 40px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 .contacts-title {
@@ -281,6 +281,10 @@ body {
 
 .contacts-place-list .contacts-list li a:hover {
   color: #a1a1f5;
+}
+
+.cnt1 {
+  margin-bottom: 43px;
 }
 
 .mail {
@@ -399,6 +403,27 @@ body {
   margin-bottom: 20px;
 }
 
+.about-me .about-me__text .name_college {
+  line-height: 24px;
+  font-size: 1.5em;
+  color: #000000;
+}
+
+.about-me .about-me__text .name_college a {
+  color: #000000;
+}
+
+.about-me .about-me__text .name_college a:hover {
+  text-decoration: underline;
+}
+
+.about-me .about-me__text .line-lower {
+  background-color: #0c0c0c;
+  height: 1px;
+  margin-top: 25px;
+  width: 520px;
+}
+
 .about-me .about-me__text .about-me__text_sub-title {
   font-style: italic;
   text-decoration: underline;
@@ -408,9 +433,9 @@ body {
 
 .about-me .about-me__text p {
   font-size: 1.3em;
-  line-height: 22px;
+  line-height: 24px;
   margin-right: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 .about-me .about-me__text p span {
@@ -433,6 +458,10 @@ body {
 
 .about-me .about-me__text p .about-me__text_first_link {
   margin-top: 15px;
+}
+
+.secondedu {
+  display: none;
 }
 
 .footer {
@@ -550,12 +579,13 @@ body {
     font-size: 18px;
   }
   .contacts {
-    padding-left: 10px;
+    padding-left: 18px;
     padding-right: 0px;
   }
   .contacts-title {
     font-size: 22px;
     letter-spacing: 2px;
+    margin-right: 8px;
   }
   .skills-place {
     max-width: 95%;
@@ -638,10 +668,19 @@ body {
     max-width: 230px;
     max-height: 230px;
   }
+  .contacts-title {
+    margin-right: 0px;
+  }
   .contacts {
     padding-left: 10px;
     padding-right: 10px;
     margin-bottom: 45px;
+  }
+  .cnt1 {
+    margin-bottom: 30px;
+  }
+  .cnt2 {
+    margin-bottom: 30px;
   }
   .contacts-place-list .contacts-list {
     display: -webkit-box;
@@ -657,6 +696,8 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
     margin-right: 20px;
   }
   .skills-place {
@@ -718,7 +759,13 @@ body {
   .contacts {
     padding-left: 10px;
     padding-right: 10px;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
+  }
+  .cnt1 {
+    margin-bottom: 30px;
+  }
+  .cnt2 {
+    margin-bottom: 20px;
   }
   .contacts-place-list .contacts-list li {
     font-size: 16px;
