@@ -789,7 +789,7 @@ body {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
   .contacts-place-list .contacts-list {
     display: block;
   }
