@@ -472,7 +472,6 @@ body {
 }
 
 .secondedu {
-  display: none;
   padding-top: 40px;
 }
 
@@ -803,4 +802,8 @@ body {
   .contacts-place-list .contacts-list {
     display: block;
   }
+}
+
+.non {
+  display: none;
 }
