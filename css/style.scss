@@ -83,7 +83,6 @@ body{
     align-items: center;
     justify-content: center;
     margin-bottom: 40px;
-
 }
 .birthday {
     text-align: center;
@@ -104,7 +103,6 @@ body{
     padding-right: 40px;
     margin-bottom: 50px;
 }
-
 
 .contacts-title {
     font-size: 30px;
@@ -135,8 +133,9 @@ body{
 .contacts-place-list{
     & .contacts-list{
         display: block;
-        & .tel-number{
-           font-size: 16px;
+        & .tel_number{
+           font-size: 17px;
+           display: none;
         }
         & li{
             display: flex;
@@ -179,7 +178,7 @@ body{
     margin-bottom: 43px;
 }
 .mail{
-    font-size:15px;
+    font-size:16px;
 }
 
 .skl{
@@ -227,7 +226,9 @@ body{
     padding-top: 60px; 
     padding-bottom: 40px; 
 }
-
+.vidstup_edu{
+    padding-left: 10px;
+}
 .place-for-pip{
     display: flex;
     align-items: center;
@@ -318,9 +319,12 @@ body{
         }
     }
 }
-
+.firstedu{
+    padding-top: 20px ;
+}
 .secondedu{
     display: none;
+    padding-top: 40px ;
 }
 
 

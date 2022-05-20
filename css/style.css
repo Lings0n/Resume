@@ -237,8 +237,9 @@ body {
   display: block;
 }
 
-.contacts-place-list .contacts-list .tel-number {
-  font-size: 16px;
+.contacts-place-list .contacts-list .tel_number {
+  font-size: 17px;
+  display: none;
 }
 
 .contacts-place-list .contacts-list li {
@@ -290,7 +291,7 @@ body {
 }
 
 .mail {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .skl {
@@ -347,6 +348,10 @@ body {
   padding-right: 30px;
   padding-top: 60px;
   padding-bottom: 40px;
+}
+
+.vidstup_edu {
+  padding-left: 10px;
 }
 
 .place-for-pip {
@@ -462,8 +467,13 @@ body {
   margin-top: 15px;
 }
 
+.firstedu {
+  padding-top: 20px;
+}
+
 .secondedu {
   display: none;
+  padding-top: 40px;
 }
 
 .footer {
