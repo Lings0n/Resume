@@ -287,7 +287,12 @@ body {
 }
 
 .imp li {
+  line-height: 23px;
   font-size: 1.3em;
+}
+
+.imp li span {
+  color: #000000;
 }
 
 .cnt1 {
@@ -342,7 +347,7 @@ body {
 
 .right-side {
   background-color: #eeeeee;
-  color: #161618;
+  color: #252528;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2 / 3;
@@ -409,6 +414,7 @@ body {
 .about-me .about-me__title {
   font-size: 1.8em;
   font-weight: 600;
+  color: #000000;
   border-bottom: 1px solid #161618;
   padding-bottom: 4px;
   margin-bottom: 20px;
@@ -441,6 +447,7 @@ body {
 
 .about-me .about-me__text .about-me__text_sub-title {
   font-style: italic;
+  color: #000000;
   text-decoration: underline;
   font-size: 1.4em;
   margin-bottom: 7px;
