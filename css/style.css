@@ -181,7 +181,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 45px;
 }
 
 .birthday {
@@ -284,6 +284,10 @@ body {
 
 .contacts-place-list .contacts-list li a:hover {
   color: #a1a1f5;
+}
+
+.imp li {
+  font-size: 1.3em;
 }
 
 .cnt1 {
@@ -410,6 +414,10 @@ body {
   margin-bottom: 20px;
 }
 
+.about-me .minus-vidstup {
+  margin-bottom: 5px;
+}
+
 .about-me .about-me__text .name_college {
   line-height: 24px;
   font-size: 1.5em;
@@ -465,6 +473,10 @@ body {
 
 .about-me .about-me__text p .about-me__text_first_link {
   margin-top: 15px;
+}
+
+.about-me .about-me__text .gir {
+  font-weight: 600;
 }
 
 .firstedu {
